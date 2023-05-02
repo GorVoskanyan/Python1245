@@ -1,0 +1,3 @@
+notbook 800
+phone 450
+watch 150

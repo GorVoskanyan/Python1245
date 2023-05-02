@@ -1,0 +1,4 @@
+notbook 1200 5
+planshet 500 8
+heraxos 650 24
+herustacuyc 820 9
