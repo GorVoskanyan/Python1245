@@ -17,3 +17,11 @@ for i in data:
     i['password'] = password_generator()
 with open('users.json', 'w') as file:
     json.dump(data, file, indent=2)
+
+def login():
+    log = input('Enter Username: ')
+    pas = input('Enter Password: ')
+    for user in data:
+        if log == user['login'] and pas == user['password']:
+            print(f'Login: {user["login"]}\nId: {user["id"]}\nNode ID: {user["node_id"]}\nAvatar: {user["avatar_url"]}\n')
+login()
