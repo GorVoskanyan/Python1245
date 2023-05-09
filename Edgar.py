@@ -36,14 +36,31 @@
 # 1 5 1 [1, 2, 3, 4, 5]
 # 10 100 20 [10, 30, 50, 70, 90]
 
-x = int(input('a :'))
-y = int(input('b :'))
-z = int(input('a<=b :'))
-def lst(x, y, z ):
-    anun = []
-    for i in range(x, y, z):
-        anun.append(i)
-    print(anun)
+# x = int(input('a :'))
+# y = int(input('b :'))
+# z = int(input('a<=b :'))
+# def lst(x, y, z ):
+#     anun = []
+#     for i in range(x, y, z):
+#         anun.append(i)
+#     print(anun)
         
 
-lst(x,y,z)   
+# lst(x,y,z)   
+
+
+# 2. LisT
+# Write a function. Create the list which elements are 
+# products between two neighbours.
+# Input Output
+# [3, 7, 12, 5, 20, 0] [21, 84, 60, 100, 0]
+# [1, 1, 4, 32, 6] [1, 4, 128, 192 ]
+
+# x = input('Texadrel tvery storaketnerov: ').split(',')
+# def lst(x):
+#     new_x = []
+#     for i in range(0,len(x) - 1):
+#         new_x.append(int(x[i]) * int(x[i+1]))
+#     return new_x 
+
+print(lst(x))
