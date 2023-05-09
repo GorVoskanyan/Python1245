@@ -28,4 +28,16 @@
 # dct3 = dict(sorted(dct.items(), key = lambda item: item[1]))
 # print(dct3)
 
+# 1. FuncTiOn
+# Given three numbers a, b (a ≤ b) and step. Create an list of 
+# evenly spaced elements starting from a to b spaced by 
+# step. you have 3 argument:
+# Input Output
+# 1 5 1 [1, 2, 3, 4, 5]
+# 10 100 20 [10, 30, 50, 70, 90]
 
+x = int(input('a :'))
+y = int(input('b :'))
+z = int(input('a<=b :'))
+def lst(a, b,):
+    
