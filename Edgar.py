@@ -39,5 +39,11 @@
 x = int(input('a :'))
 y = int(input('b :'))
 z = int(input('a<=b :'))
-def lst(a, b,):
-    
+def lst(x, y, z ):
+    anun = []
+    for i in range(x, y, z):
+        anun.append(i)
+    print(anun)
+        
+
+lst(x,y,z)   
